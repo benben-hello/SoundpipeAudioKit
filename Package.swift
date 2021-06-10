@@ -8,7 +8,7 @@ let package = Package(
     platforms: [.macOS(.v10_14), .iOS(.v12), .tvOS(.v13)],
     products: [.library(name: "SoundpipeAudioKit", targets: ["SoundpipeAudioKit"])],
     dependencies: [
-        .package(url: "https://github.com/AudioKit/KissFFT", from: "1.0.0"),
+        .package(url: "https://hub.gastgit.org/AudioKit/KissFFT", from: "1.0.0"),
         .package(url: "https://github.com/AudioKit/AudioKit", from: "5.2.0"),
     ],
     targets: [
